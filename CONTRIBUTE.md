@@ -14,7 +14,6 @@ First, clone the repository:
 
     $ git clone https://github.com/alecristia/mandy_ipadvocabtest.git
 
-If this command fails, you probably have to add your SSH key here: https://git.etaminstud.io/profile/keys and try again.
 
 By default, you will be on the `master` branch.
 
@@ -50,7 +49,7 @@ You can now get back to the `master` branch.
     $ git checkout master
 
 We want the maintainer of the repository to merge our changes, so we'll now create a "merge request".
-Login to http://git.etaminstud.io/lscp/app/merge_requests  ##NEEDS UPDATE
+--- TO BE ADDED
 
 Click on "+ New Merge Request".
 
