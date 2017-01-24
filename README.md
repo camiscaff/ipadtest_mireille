@@ -14,7 +14,7 @@ This app communicates with a back-office that receives and safely stores the exp
 * The backend should have been deployed on a web server to allow sync.
 * Git
 * Node and npm ([download](http://nodejs.org/download/))
-* Bower `npm install -g bower`
+* Bower `sudo npm install -g bower`
 * Gulp `sudo npm install gulp -g` 
 * Ruby `sudo npm install ruby -g`
 * sass `gem install sass`
@@ -42,7 +42,10 @@ We do not package the app locally, but use [PhoneGap Build](http://build.phonega
 
 Define your configuration settings in `gulpfile.js` (see gulpfile_sample.js).
 
-Run `gulp phonegap-build`, to compile the app, upload it to PhoneGap Build, package it and download the packaged app file (by default `idevxxi.ipa`, in the project directory).
+Run `		`, to compile the app, upload it to PhoneGap Build, package it and download the packaged app file (by default `idevxxi.ipa`, in the project directory).
+
+Note 2016-11-02: ran into error Cannot find module 'gulp-load-plugins' - which had already been the case in March 16, 2016. I did `sudo npm install` and then ran the compile again. That error disappeared but got bower missing; reinstalled it but still:
+Error: Bower components directory does not exist at app/bower_components
 
 ### Manually
 

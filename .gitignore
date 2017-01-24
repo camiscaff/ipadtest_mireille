@@ -1,4 +1,6 @@
 app/scripts/App.js
+app/scripts/App.js*
+gulpfile.js*
 www/scripts/main.js
 gulpfile.js
 node_modules
