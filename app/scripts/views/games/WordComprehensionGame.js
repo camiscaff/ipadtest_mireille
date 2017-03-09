@@ -22,12 +22,20 @@ LSCP.View.WordComprehensionGame = LSCP.View.Game.extend({
     ];
     var sounds = [
       ['mandy', {
-        urls: [LSCP.Locations.Sounds + 'mandy/sprite-nonverbal.mp3'],
+        urls: [LSCP.Locations.Sounds + 'mandy/newsprite.mp3'],
         sprite: {
-		hello1: [0, 140],
-		right1: [1682, 665],
-		wrong1: [1, 140],
-		idle1: [140, 500]
+		//hello1: [0, 140],
+		//right1: [1682, 665],
+		//wrong1: [1, 140],
+		//idle1: [140, 500]
+		idle1: [189,555],
+		idle2: [1218,577],
+		right1: [2273,886],
+		right2: [3637,899],
+		right3: [4997,992],
+		right4: [6460,1357],
+		right5: [8282,900],
+		right6: [9637,1000]
        }
       }],
       ['plop', {urls: [LSCP.Locations.Sounds + 'plop.mp3']}]
